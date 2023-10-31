@@ -22,7 +22,6 @@ const button = document
     let final = soma + math;
 
     gastoArea.textContent = soma + "R$";
-    porcentagemArea.textContent = porcentagemFinal + "%";
     vendaArea.textContent = novoValor + "R$";
     lucroNumber.textContent = math + "R$";
 
