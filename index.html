@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="input-field">
+
+            <label>Preço do Celular</label>
+            <input type="number" id="celular">
+
+        </div>
+
+        <div class="input-field">
+
+            <label>Preço da Tela</label>
+            <input type="number" id="tela">
+
+        </div>
+        <div class="input-field">
+
+            <label>Porcentagem de Lucro</label>
+            <input type="number" id="percentage">
+
+        </div>
+        <button id="mainButton">Calcular</button>
+
+        <div class="result" style="display: none;">
+
+            <section id="venda">
+                <label>Venda</label>
+                <p></p>
+            </section>
+
+            <section id="lucroNumber">
+                <label>Lucro</label>
+                <p></p>
+            </section>
+
+            <section id="porcentagem">
+                <label>Lucro</label>
+                <p></p>
+            </section>
+
+            <section id="gasto">
+                <label>Gasto</label>
+                <p></p>
+            </section>
+
+        </div>
+
+        <div id="message" style="display: none;">
+            <p>Conta bancária <span id="present"></span><i class="fa-solid fa-arrow-right"></i><span
+                    id="finalResult"></span></p>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/bb389d468f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
