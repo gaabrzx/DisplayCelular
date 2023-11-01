@@ -127,14 +127,10 @@ body {
     color: red;
     border-radius: 5px;
     margin: 0px 5px;
-    background-color: #3E3BEC;
-    padding: 5px;
 }
 
 #finalResult {
     color: rgb(0, 203, 0);
     border-radius: 5px;
     margin: 0px 5px;
-    background-color: #3E3BEC;
-    padding: 5px;
 }
