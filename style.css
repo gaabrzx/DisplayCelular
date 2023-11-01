@@ -78,6 +78,7 @@ body {
 .result label {
     font-size: 20px;
     font-weight: bold;
+    margin-top: -15px;
 }
 
 .result p {
